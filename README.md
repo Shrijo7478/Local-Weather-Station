@@ -1,16 +1,23 @@
-# weather_station_app
+# 🌦️ IoT Weather Station with ESP32, Adafruit IO, and Flutter
 
-A new Flutter project.
+An IoT-enabled weather station that uses an ESP32 microcontroller and a DHT11 sensor to monitor real-time temperature and humidity. The data is uploaded to Adafruit IO, and a custom-built Flutter app allows users to visualize the data on their mobile devices.
 
-## Getting Started
+# 🚀 Features
+•	Real-Time Monitoring: Measure temperature and humidity using the DHT11 sensor.
+•	Cloud Integration: Data is transmitted to Adafruit IO for cloud storage and visualization.
+•	Flutter Mobile App: Displays real-time and historical data with an intuitive interface.
+•	ESP32 Connectivity: Reliable Wi-Fi-enabled microcontroller for seamless communication.
+•	Open-Source: Fully customizable and extensible for additional features.
+ 
+# 🛠️ Tech Stack
 
-This project is a starting point for a Flutter application.
+Hardware
+	•	ESP32 WROOM-32D
+	•	DHT11 Temperature and Humidity Sensor
 
-A few resources to get you started if this is your first Flutter project:
+Software
+	•	Flutter (for mobile app development)
+	•	Adafruit IO (for cloud storage and dashboard visualization)
+	•	Arduino IDE (for programming the ESP32)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 📲 Screenshots
